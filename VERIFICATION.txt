@@ -1,0 +1,9 @@
+CXZ v0.1 — 10.10.2026
+
+19 unit tests passed; 4 PostgreSQL integration tests skipped (no isolated database).
+Python compilation passed. PostgreSQL schema and 67 literal SQL statements parsed.
+Real public Yandex search and organization HTML fetched successfully from development environment.
+Website/booking present: rejected. Omitted website field with rendered contacts: accepted.
+Deployment IPs can have different access; Render smoke test still required.
+Telegram webhook and real Supabase transactions not executed: credentials are not configured.
+Docker image specification provided, container build not tested in this environment.

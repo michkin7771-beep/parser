@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: cxz-bot
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: ADMIN_ID
+        value: "8051325598"
+      - key: WEBHOOK_SECRET
+        generateValue: true
+      - key: KEY_PEPPER
+        generateValue: true
